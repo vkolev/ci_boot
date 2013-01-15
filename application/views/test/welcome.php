@@ -67,7 +67,7 @@
 <body>
 
 <div id="container">
-	<h1><?=$welcome_message?></h1>
+	<h1><?=lang('welcome.hello')?></h1>
 
 	<div id="body">
 		<p>The page you are looking at is being generated dynamically by CodeIgniter. Go to the <a href="<?=base_url()?>welcome/test">test</a> page</p>

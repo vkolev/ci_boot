@@ -18,9 +18,10 @@ class Welcome extends MY_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{
+    {
+            $this->load->helper('language');
+            $this->lang->load('welcome');
             $this->view = "test/welcome";
-            $this->data['welcome_message'] = "Hello CodeIgniter World";
 	}
         
         public function test() {
