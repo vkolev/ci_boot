@@ -2,7 +2,7 @@ AddDefaultCharset UTF-8
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /ciboot/
+    RewriteBase /ci_boot/
 
     #Removes access to the system folder by users.
     #Additionally this will allow you to create a System.php controller,
